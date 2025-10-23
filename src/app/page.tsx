@@ -25,15 +25,15 @@ export default function Home() {
     <main>
       <ScrollUp />
       <Hero />
-      <Features />
+      {/* <Features /> */}
       <About />
-      <CallToAction />
-      <Pricing />
-      <Testimonials />
-      <Faq />
+      {/* <CallToAction /> */}
+      {/* <Pricing /> */}
+      {/* <Testimonials /> */}
+      {/* <Faq /> */}
       <Team />
-      <HomeBlogSection posts={posts} />
-      <Contact />
+      {/* <HomeBlogSection posts={posts} /> */}
+      {/* <Contact /> */}
       <Clients />
     </main>
   );

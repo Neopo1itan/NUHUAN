@@ -10,21 +10,18 @@ const Hero = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4">
+            <div className="w-full px-4 2xl:py-[150px]">
               <div
-                className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
+                className="hero-content wow fadeInUp mx-auto max-w-[760px] text-center"
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Open-source SaaS Starter Kit and Boilerplate for Next.js
+                  专业Web3团队为您提供定制化的区块链解决方案
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Next.js SaaS Boilerplate and Starter Kit designed and built
-                  for SaaS startups. It comes with all necessary integrations,
-                  pages, and components you need to launch a feature-rich SaaS
-                  websites.
+                  A professional Web3 team provides you with customized blockchain solutions.
                 </p>
-                <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
+                {/* <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link
                       href="https://nextjstemplates.com/templates/play"
@@ -59,9 +56,9 @@ const Hero = () => {
                       Star on Github
                     </Link>
                   </li>
-                </ul>
-
-                <div>
+                </ul> */}
+                {/* frameworks */}
+                {/* <div>
                   <p className="mb-4 text-center text-base font-medium text-white/60">
                     Play is now available for all popular frameworks
                   </p>
@@ -197,10 +194,11 @@ const Hero = () => {
                       </svg>
                     </Link>
                   </div>
-                </div>
+                </div> */}
+
               </div>
             </div>
-
+            {/* 底部图片 */}
             <div className="w-full px-4">
               <div
                 className="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
