@@ -5,36 +5,36 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
-    designation: "UI Designer",
-    image: "/images/team/team-01.png",
+    name: "Thomas",
+    designation: "Leader",
+    image: "/images/team/avatar_01.jpg",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 2,
-    name: "Jezmin uniya",
+    name: "Zhong",
     designation: "Product Designer",
-    image: "/images/team/team-02.png",
+    image: "/images/team/avatar_02.jpg",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
-    designation: "App Developer",
-    image: "/images/team/team-03.png",
+    name: "Du",
+    designation: "Content Writer",
+    image: "/images/team/avatar_03.jpg",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 4,
-    name: "Jackie Sanders",
-    designation: "Content Writer",
-    image: "/images/team/team-04.png",
+    name: "Yan",
+    designation: "Front-End Programmer",
+    image: "/images/team/avatar_04.jpg",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
@@ -45,7 +45,7 @@ const Team = () => {
   return (
     <section
       id="team"
-      className="overflow-hidden bg-gray-1 pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]"
+      className="overflow-hidden bg-gray-1 pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
     >
       <div className="container">
         <div className="mb-[60px]">

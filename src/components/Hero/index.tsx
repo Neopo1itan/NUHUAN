@@ -6,7 +6,8 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
+        className="relative overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px] bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url("/images/hero/background.png")' }}
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">

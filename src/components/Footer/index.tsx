@@ -13,10 +13,10 @@ const Footer = () => {
             <div className="mb-10 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[160px]">
                 <Image
-                  src="/images/logo/logo-white.svg"
+                  src="/images/logo/logo-row-light.png"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={280}
+                  height={60}
                   className="max-w-full"
                 />
               </Link>
@@ -102,23 +102,23 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="#"
+                    href="/"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Home
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Features
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
-                    href="#"
+                    href="/about"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     About
@@ -126,10 +126,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/contact"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Testimonial
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -261,7 +261,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
+      {/* <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-2/3 lg:w-1/2">
@@ -305,9 +305,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div>
+      {/* <div>
         <span className="absolute left-0 top-0 z-[-1] aspect-[95/82] w-full max-w-[570px]">
           <Image src="/images/footer/shape-1.svg" alt="shape" fill />
         </span>
@@ -571,7 +571,7 @@ const Footer = () => {
             ></path>
           </svg>
         </span>
-      </div>
+      </div> */}
     </footer>
   );
 };

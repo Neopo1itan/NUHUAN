@@ -29,7 +29,8 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
-  });
+    return () => window.removeEventListener("scroll", handleStickyNavbar); // 新增
+  }, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -145,7 +146,7 @@ const Header = () => {
                               onClick={navbarToggleHandler}
                               scroll={false}
                               href={menuItem.path}
-                              className={`ud-menu-scroll flex py-2 text-base text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:inline-flex lg:px-0 lg:py-6 ${pathUrl === menuItem?.path && "text-primary"
+                              className={`ud-menu-scroll flex py-2 text-base text-dark  dark:text-white lg:inline-flex lg:px-0 lg:py-6 ${pathUrl === menuItem?.path ? "text-xl font-medium" : "group-hover:text-xl"
                                 }`}
                             >
                               {menuItem.title}
@@ -155,11 +156,9 @@ const Header = () => {
                               scroll={false}
                               href={menuItem.path}
                               className={`ud-menu-scroll flex py-2 text-base lg:inline-flex lg:px-0 lg:py-6 ${sticky
-                                ? "text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary"
+                                ? "text-dark  dark:text-white"
                                 : "text-body-color dark:text-white lg:text-white"
-                                } ${pathUrl === menuItem?.path &&
-                                sticky &&
-                                "!text-primary"
+                                } ${pathUrl === menuItem?.path ? "text-xl font-medium" : "group-hover:text-xl"
                                 }`}
                             >
                               {menuItem.title}
